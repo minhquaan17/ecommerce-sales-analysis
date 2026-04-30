@@ -23,21 +23,21 @@ The workflow follows a typical Data Analyst pipeline:
 
 ---
 
-## 📂 Project Structure
+#📂 Project Structure
 ecommerce-sales-analysis/
 │
 ├── data/
-│ ├── raw/ # Raw dataset (Amazon Sale Report)
-│ └── processed/ # Cleaned dataset
-│ └── all_orders.csv
+│   ├── raw/                  # Raw dataset (Amazon Sale Report)
+│   └── processed/            # Cleaned dataset
+│       └── all_orders.csv
 │
 ├── scripts/
-│ └── pipeline.py # Data cleaning & processing script
+│   └── pipeline.py           # Data cleaning & processing script
 │
 ├── images/
-│ └── dashboard.png # Dashboard screenshot
+│   └── dashboard.png         # Dashboard screenshot
 │
-├── requirements.txt # Python dependencies
+├── requirements.txt          # Python dependencies
 └── README.md
 
 
