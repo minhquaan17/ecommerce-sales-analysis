@@ -23,22 +23,22 @@ The workflow follows a typical Data Analyst pipeline:
 
 ---
 
-#📂 Project Structure
-ecommerce-sales-analysis/
-│
-├── data/
-│   ├── raw/                  # Raw dataset (Amazon Sale Report)
-│   └── processed/            # Cleaned dataset
-│       └── all_orders.csv
-│
-├── scripts/
-│   └── pipeline.py           # Data cleaning & processing script
-│
-├── images/
-│   └── dashboard.png         # Dashboard screenshot
-│
-├── requirements.txt          # Python dependencies
-└── README.md
+## 📂 Project Structure
+
+- **data/**
+  - **raw/** → Raw dataset (Amazon Sale Report)
+  - **processed/**
+    - **all_orders.csv** → Cleaned dataset
+
+- **scripts/**
+  - **pipeline.py** → Data processing script
+
+- **images/**
+  - **dashboard.png** → Dashboard screenshot
+
+- **requirements.txt** → Python dependencies  
+- **README.md**
+
 
 
 ---
@@ -47,7 +47,7 @@ ecommerce-sales-analysis/
 
 ### 🔹 Data Cleaning
 - Remove missing values in `AMOUNT`
-- Convert `DATE` to datetime format
+- Convert `DATE` to datetime
 - Standardize `STATUS` and `CATEGORY`
 - Remove duplicate records
 
@@ -108,3 +108,4 @@ ecommerce-sales-analysis/
 - Revenue fluctuates over time (monthly trends)
 
 ---
+
